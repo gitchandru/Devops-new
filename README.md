@@ -1,2 +1,2 @@
 # Devops-new
-test
+Simple demo app for Devops
