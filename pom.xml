@@ -7,8 +7,8 @@
 	<artifactId>simpledemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>simpledemo</name>
-	<!-- <name>${project.artifactId}</name> -->
+	<!-- <name>simpledemo</name> -->
+	 <name>${project.artifactId}</name>
 	<description>Demo project for Spring Boot</description>
 	
 	
