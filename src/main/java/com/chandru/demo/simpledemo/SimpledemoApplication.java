@@ -7,7 +7,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 
 /*
- * @SpringBootApplication public class SimpledemoApplication {
+ * @SpringBootApplication
+ * public class SimpledemoApplication {
  * 
  * public static void main(String[] args) {
  * SpringApplication.run(SimpledemoApplication.class, args); }
@@ -23,12 +24,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
   
   
   
-  @SpringBootApplication public class SimpledemoApplication extends
-  SpringBootServletInitializer {
+  @SpringBootApplication 
+  public class SimpledemoApplication extends SpringBootServletInitializer {
   
-  @Override protected SpringApplicationBuilder
-  configure(SpringApplicationBuilder application) { return
-  application.sources(SimpledemoApplication.class); }
+  @Override protected SpringApplicationBuilder   configure(SpringApplicationBuilder application) { 
+	  return application.sources(SimpledemoApplication.class); 
+	  }
   
   public static void main(String[] args) {
   SpringApplication.run(SimpledemoApplication.class, args); }
