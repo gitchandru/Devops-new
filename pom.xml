@@ -24,7 +24,7 @@
 	
 	<properties>
 		<java.version>1.8</java.version>
-		 <startClass>SimpledemoApplication</startClass>
+		 <startClass>com.chandru.demo.simpledemo.SimpledemoApplication</startClass>
 	</properties>
 
 	<dependencies>
