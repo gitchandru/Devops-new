@@ -6,15 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 
-
-  @SpringBootApplication
-  public class SimpledemoApplication {
-  
-  public static void main(String[] args) {
-  SpringApplication.run(SimpledemoApplication.class, args); }
-  
-  }
- 
+/*
+ * @SpringBootApplication public class SimpledemoApplication {
+ * 
+ * public static void main(String[] args) {
+ * SpringApplication.run(SimpledemoApplication.class, args); }
+ * 
+ * }
+ */
  
  
 
@@ -23,18 +22,19 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
   // For Generating War file instead of .jar file uncomment below code and  comment above code
   
   
-/*
- * @SpringBootApplication public class SimpledemoApplication extends
- * SpringBootServletInitializer {
- * 
- * @Override protected SpringApplicationBuilder
- * configure(SpringApplicationBuilder application) { return
- * application.sources(SimpledemoApplication.class); }
- * 
- * public static void main(String[] args) {
- * SpringApplication.run(SimpledemoApplication.class, args); }
- * 
- * }
- */
+
+  @SpringBootApplication 
+  public class SimpledemoApplication extends
+  SpringBootServletInitializer {
+  
+  @Override protected SpringApplicationBuilder
+  configure(SpringApplicationBuilder application) { return
+  application.sources(SimpledemoApplication.class); }
+  
+  public static void main(String[] args) {
+  SpringApplication.run(SimpledemoApplication.class, args); }
+  
+  }
+ 
  
  
