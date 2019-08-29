@@ -27,7 +27,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
   @SpringBootApplication 
   public class SimpledemoApplication extends SpringBootServletInitializer {
   
-  @Override protected SpringApplicationBuilder   configure(SpringApplicationBuilder application) { 
+  @Override 
+  protected SpringApplicationBuilder   configure(SpringApplicationBuilder application) { 
 	  return application.sources(SimpledemoApplication.class); 
 	  }
   
