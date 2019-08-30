@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.chandru.demo.simpledemo.ui.response.ResponseRest;
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("/")
 public class HelloController {
 	private final AtomicLong counter = new AtomicLong();
 	private static final String msg="Hi Welcome %s";
@@ -19,7 +19,13 @@ public class HelloController {
 	@GetMapping
 	public String getHelloMessage() {
 		
-		return "HI Welcome to Demo";
+		return "HI Welcome";
+	}
+	
+	@GetMapping(path="/demo")
+	public String getwelcomeMsg() {
+		
+		return "HI Welcome to Demo with with Poll SCM!";
 	}
 	
 	
