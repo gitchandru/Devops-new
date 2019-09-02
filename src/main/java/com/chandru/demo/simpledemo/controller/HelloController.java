@@ -19,7 +19,7 @@ public class HelloController {
 	@GetMapping
 	public String getHelloMessage() {
 		
-		return "HI Welcome";
+		return "HI Welcome. Test for Ansible Integration with jenkins Demo";
 	}
 	
 	@GetMapping(path="/demo")
