@@ -21,7 +21,7 @@ public class HelloController {
 		
 		return "HI Welcome. Test for Ansible Integration with jenkins Demo...."
 				+ " <br> Deploy on Docker Container using ansible playbook from jenkins"
-				+ "<br> CI/CD job once code is changed and commited to Git";
+				+ "<br> CI/CD job once code is changed and commited to Git..";
 	}
 	
 	@GetMapping(path="/demo")
